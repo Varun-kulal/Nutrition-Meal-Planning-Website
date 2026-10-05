@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriPlan | Premium Meal Planning</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg: #121212;
+            --card: #1c1c1c;
+            --yellow: #FFC107;
+            --text: #ffffff;
+            --muted: #b0b0b0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--text);
+        }
+
+        /* ================= NAVBAR ================= */
+        nav {
+            width: 100%;
+            padding: 22px 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #1f1f1f;
+        }
+
+        .logo {
+            font-size: 26px;
+            font-weight: 800;
+            letter-spacing: 1px;
+        }
+
+        .logo span {
+            color: var(--yellow);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 36px;
+        }
+
+        .nav-links a {
+            color: var(--muted);
+            text-decoration: none;
+            font-weight: 500;
+            position: relative;
+        }
+
+        .nav-links a:hover {
+            color: var(--yellow);
+        }
+
+        .auth {
+            display: flex;
+            gap: 18px;
+        }
+
+        .auth a {
+            text-decoration: none;
+            padding: 10px 22px;
+            border-radius: 30px;
+            font-weight: 600;
+        }
+
+        .login {
+            color: var(--yellow);
+        }
+
+        .signup {
+            background: var(--yellow);
+            color: #000;
+        }
+
+        /* ================= SECTIONS ================= */
+        section {
+            padding: 110px 80px;
+        }
+
+        /* ================= HERO ================= */
+        .hero {
+            display: grid;
+            grid-template-columns: 1.1fr 1fr;
+            align-items: center;
+            gap: 80px;
+        }
+
+        .hero h1 {
+            font-size: 54px;
+            font-weight: 800;
+            line-height: 1.1;
+        }
+
+        .hero h1 span {
+            color: var(--yellow);
+        }
+
+        .hero p {
+            margin: 24px 0 40px;
+            font-size: 17px;
+            color: var(--muted);
+            max-width: 520px;
+        }
+
+        .hero button {
+            background: var(--yellow);
+            border: none;
+            padding: 14px 34px;
+            border-radius: 40px;
+            font-size: 15px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .hero img {
+            width: 100%;
+            border-radius: 26px;
+        }
+
+        /* ================= TESTIMONIALS ================= */
+        .testimonials {
+            background: #0f0f0f;
+        }
+
+        .section-title {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 60px;
+        }
+
+        .section-title span {
+            color: var(--yellow);
+        }
+
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 36px;
+        }
+
+        .testimonial {
+            background: var(--card);
+            padding: 36px;
+            border-radius: 22px;
+        }
+
+        .testimonial p {
+            color: var(--muted);
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .testimonial h4 {
+            color: var(--yellow);
+            font-weight: 600;
+        }
+
+        /* ================= CONTACT ================= */
+        .contact {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+            align-items: center;
+        }
+
+        .contact h3 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .contact p {
+            color: var(--muted);
+            margin-bottom: 14px;
+            font-size: 16px;
+        }
+
+        .contact span {
+            color: var(--yellow);
+            font-weight: 600;
+        }
+
+        /* ================= FOOTER ================= */
+        footer {
+            background: #0a0a0a;
+            padding: 60px 80px;
+            margin-top: 80px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 60px;
+        }
+
+        footer h4 {
+            margin-bottom: 18px;
+        }
+
+        footer p,
+        footer a {
+            color: #888;
+            font-size: 14px;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        footer a:hover {
+            color: var(--yellow);
+        }
+
+        .footer-bottom {
+            margin-top: 40px;
+            border-top: 1px solid #1f1f1f;
+            padding-top: 20px;
+            text-align: center;
+            font-size: 13px;
+            color: #777;
+        }
+
+        /* ================= RESPONSIVE (basic) ================= */
+        @media(max-width:1200px) {
+
+            .hero,
+            .contact {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo">Nutri<span>Plan</span></div>
+
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+
+        <div class="auth">
+            <a href="login.php" class="login">Login</a>
+            <a href="signup.php" class="signup">Sign Up</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section>
+        <div class="hero">
+            <div>
+                <h1>Master Your <span>Nutrition</span></h1>
+                <p>
+                    Achieve your health goals with our premium meal planning platform.
+                    Precision nutrition, elegant design, and personalized plans tailored just for you.
+                </p>
+                <a href="signup.php">
+
+                    <button>Start Your Plan</button>
+                </a>
+
+            </div>
+
+            <!-- Replaced Image: Healthy Meal Prep -->
+            <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1200&q=80"
+                alt="Healthy Meal Prep">
+        </div>
+    </section>
+
+    <!-- ABOUT US -->
+    <section id="about">
+        <div class="hero">
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80"
+                style="width:100%; border-radius:26px" alt="Team Meeting">
+            <div>
+                <h2 class="section-title">Who <span>We Are</span></h2>
+                <p style="color:#b0b0b0; line-height:1.6; font-size:16px;">
+                    At NutriPlan, we believe that healthy living shouldn't be complicated. Founded by a team of
+                    certified nutritionists and tech enthusiasts, our mission is to make professional meal planning
+                    accessible to everyone.
+                </p>
+                <p style="color:#b0b0b0; line-height:1.6; font-size:16px; margin-top:20px;">
+                    We combine science-backed nutritional data with an easy-to-use interface to help you build
+                    sustainable habits. Whether you're an athlete, a busy professional, or just starting your journey,
+                    we're here to guide you every step of the way.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+        <h2 class="section-title">What Our <span>Clients Say</span></h2>
+
+        <div class="testimonial-grid">
+            <div class="testimonial">
+                <p>“The meal plans are delicious and easy to follow. I've never felt better!”</p>
+                <h4>— Abijith</h4>
+            </div>
+
+            <div class="testimonial">
+                <p>“Finally a nutrition app that looks as good as it works. Highly recommended.”</p>
+                <h4>— Brijesh</h4>
+            </div>
+
+            <div class="testimonial">
+                <p>“Professional guidance with attention to every macro. Excellent results.”</p>
+                <h4>— danush</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2 class="section-title" style="text-align:center;">Get in <span>Touch</span></h2>
+        <div class="contact">
+            <div style="background:#1c1c1c; padding:40px; border-radius:26px;">
+                <h3>Contact <span>Info</span></h3>
+                <p style="margin-bottom:20px;">Have questions? Reach out to our team directly.</p>
+
+                <div style="margin-bottom:15px;">
+                    <span style="display:block; font-size:12px; color:#888;">PHONE</span>
+                    <p style="color:#fff; font-size:18px;">6361441067</p>
+                </div>
+
+                <div style="margin-bottom:15px;">
+                    <span style="display:block; font-size:12px; color:#888;">EMAIL</span>
+                    <p style="color:#fff; font-size:18px;">varunmallangai@gmail.com</p>
+                </div>
+
+                <div>
+                    <span style="display:block; font-size:12px; color:#888;">LOCATION</span>
+                    <p style="color:#fff; font-size:18px;">Manglore, India</p>
+                </div>
+            </div>
+
+            <!-- Enhanced Visual: Map or Professional Office Image -->
+            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80"
+                style="width:100%; border-radius:26px; height:100%; object-fit:cover;" alt="Office Space">
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-grid">
+            <div>
+                <h4>NutriPlan</h4>
+                <p>Premium dark-themed nutrition planning for modern healthy lifestyles.</p>
+            </div>
+
+            <div>
+                <h4>Quick Links</h4>
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div>
+                <h4>Legal</h4>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 NutriPlan. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+
+</html>

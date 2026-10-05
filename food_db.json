@@ -1,0 +1,466 @@
+[
+    {
+        "name": "Chicken Breast",
+        "cal": 165,
+        "p": 31,
+        "c": 0,
+        "f": 3.6,
+        "unit": "g"
+    },
+    {
+        "name": "White Rice",
+        "cal": 130,
+        "p": 2.7,
+        "c": 28,
+        "f": 0.3,
+        "unit": "g"
+    },
+    {
+        "name": "Brown Rice",
+        "cal": 111,
+        "p": 2.6,
+        "c": 23,
+        "f": 0.9,
+        "unit": "g"
+    },
+    {
+        "name": "Egg",
+        "cal": 155,
+        "p": 13,
+        "c": 1.1,
+        "f": 11,
+        "unit": "pc"
+    },
+    {
+        "name": "Bread (Whole Wheat)",
+        "cal": 247,
+        "p": 13,
+        "c": 41,
+        "f": 3.4,
+        "unit": "slice"
+    },
+    {
+        "name": "Oats",
+        "cal": 389,
+        "p": 16.9,
+        "c": 66,
+        "f": 6.9,
+        "unit": "g"
+    },
+    {
+        "name": "Milk (Whole)",
+        "cal": 61,
+        "p": 3.2,
+        "c": 4.8,
+        "f": 3.3,
+        "unit": "ml"
+    },
+    {
+        "name": "Apple",
+        "cal": 52,
+        "p": 0.3,
+        "c": 14,
+        "f": 0.2,
+        "unit": "g"
+    },
+    {
+        "name": "Banana",
+        "cal": 89,
+        "p": 1.1,
+        "c": 23,
+        "f": 0.3,
+        "unit": "g"
+    },
+    {
+        "name": "Peanut Butter",
+        "cal": 588,
+        "p": 25,
+        "c": 20,
+        "f": 50,
+        "unit": "g"
+    },
+    {
+        "name": "Paneer",
+        "cal": 265,
+        "p": 18,
+        "c": 1.2,
+        "f": 20,
+        "unit": "g"
+    },
+    {
+        "name": "Dal (Lentils)",
+        "cal": 116,
+        "p": 9,
+        "c": 20,
+        "f": 0.4,
+        "unit": "g"
+    },
+    {
+        "name": "Broccoli",
+        "cal": 34,
+        "p": 2.8,
+        "c": 7,
+        "f": 0.4,
+        "unit": "g"
+    },
+    {
+        "name": "Salmon",
+        "cal": 208,
+        "p": 20,
+        "c": 0,
+        "f": 13,
+        "unit": "g"
+    },
+    {
+        "name": "Greek Yogurt",
+        "cal": 59,
+        "p": 10,
+        "c": 3.6,
+        "f": 0.4,
+        "unit": "g"
+    },
+    {
+        "name": "Almonds",
+        "cal": 579,
+        "p": 21,
+        "c": 22,
+        "f": 50,
+        "unit": "g"
+    },
+    {
+        "name": "Sweet Potato",
+        "cal": 86,
+        "p": 1.6,
+        "c": 20,
+        "f": 0.1,
+        "unit": "g"
+    },
+    {
+        "name": "Chickpeas",
+        "cal": 164,
+        "p": 8.9,
+        "c": 27,
+        "f": 2.6,
+        "unit": "g"
+    },
+    {
+        "name": "Tofu",
+        "cal": 76,
+        "p": 8,
+        "c": 1.9,
+        "f": 4.8,
+        "unit": "g"
+    },
+    {
+        "name": "Avocado",
+        "cal": 160,
+        "p": 2,
+        "c": 9,
+        "f": 15,
+        "unit": "g"
+    },
+    {
+        "name": "Orange",
+        "cal": 47,
+        "p": 0.9,
+        "c": 12,
+        "f": 0.1,
+        "unit": "g"
+    },
+    {
+        "name": "Dates",
+        "cal": 282,
+        "p": 2.5,
+        "c": 75,
+        "f": 0.4,
+        "unit": "g"
+    },
+    {
+        "name": "Walnuts",
+        "cal": 654,
+        "p": 15,
+        "c": 14,
+        "f": 65,
+        "unit": "g"
+    },
+    {
+        "name": "Green Tea",
+        "cal": 0,
+        "p": 0,
+        "c": 0,
+        "f": 0,
+        "unit": "ml"
+    },
+    {
+        "name": "Poha",
+        "cal": 130,
+        "p": 2,
+        "c": 28,
+        "f": 0.5,
+        "unit": "g"
+    },
+    {
+        "name": "Upma",
+        "cal": 150,
+        "p": 4,
+        "c": 25,
+        "f": 4,
+        "unit": "g"
+    },
+    {
+        "name": "Besan Chilla",
+        "cal": 240,
+        "p": 10,
+        "c": 20,
+        "f": 12,
+        "unit": "pc"
+    },
+    {
+        "name": "Chia Seeds",
+        "cal": 486,
+        "p": 17,
+        "c": 42,
+        "f": 31,
+        "unit": "g"
+    },
+    {
+        "name": "Coconut Water",
+        "cal": 19,
+        "p": 0.7,
+        "c": 3.7,
+        "f": 0.2,
+        "unit": "ml"
+    },
+    {
+        "name": "Lemon Water",
+        "cal": 5,
+        "p": 0,
+        "c": 1,
+        "f": 0,
+        "unit": "glass"
+    },
+    {
+        "name": "Ginger Tea",
+        "cal": 5,
+        "p": 0,
+        "c": 1,
+        "f": 0,
+        "unit": "glass"
+    },
+    {
+        "name": "Buttermilk",
+        "cal": 40,
+        "p": 3.3,
+        "c": 4.8,
+        "f": 0.9,
+        "unit": "ml"
+    },
+    {
+        "name": "Makhana (Roasted)",
+        "cal": 347,
+        "p": 9.7,
+        "c": 76,
+        "f": 0.1,
+        "unit": "g"
+    },
+    {
+        "name": "Cucumber",
+        "cal": 15,
+        "p": 0.7,
+        "c": 3.6,
+        "f": 0.1,
+        "unit": "g"
+    },
+    {
+        "name": "Soya Chunks",
+        "cal": 345,
+        "p": 52,
+        "c": 33,
+        "f": 0.5,
+        "unit": "g"
+    },
+    {
+        "name": "Idli",
+        "cal": 58,
+        "p": 1.5,
+        "c": 12,
+        "f": 0.1,
+        "unit": "pc"
+    },
+    {
+        "name": "Masala Dosa",
+        "cal": 168,
+        "p": 3.9,
+        "c": 29,
+        "f": 3.7,
+        "unit": "pc"
+    },
+    {
+        "name": "Medu Vada",
+        "cal": 97,
+        "p": 2.1,
+        "c": 8.4,
+        "f": 6.2,
+        "unit": "pc"
+    },
+    {
+        "name": "Sambar",
+        "cal": 50,
+        "p": 2.5,
+        "c": 7.5,
+        "f": 1.2,
+        "unit": "ml"
+    },
+    {
+        "name": "Coconut Chutney",
+        "cal": 45,
+        "p": 0.5,
+        "c": 2,
+        "f": 4,
+        "unit": "g"
+    },
+    {
+        "name": "Chole Bhature",
+        "cal": 450,
+        "p": 12,
+        "c": 55,
+        "f": 20,
+        "unit": "plate"
+    },
+    {
+        "name": "Butter Chicken",
+        "cal": 240,
+        "p": 16,
+        "c": 6,
+        "f": 18,
+        "unit": "g"
+    },
+    {
+        "name": "Aloo Paratha",
+        "cal": 290,
+        "p": 6,
+        "c": 45,
+        "f": 10,
+        "unit": "pc"
+    },
+    {
+        "name": "Rajma Chawal",
+        "cal": 350,
+        "p": 10,
+        "c": 60,
+        "f": 8,
+        "unit": "plate"
+    },
+    {
+        "name": "Fish curry",
+        "cal": 250,
+        "p": 20,
+        "c": 17,
+        "f": 13,
+        "unit": "plate"
+    },
+    {
+        "name": "Veg Salad",
+        "cal": 50,
+        "p": 2,
+        "c": 4,
+        "f": 0,
+        "unit": "plate"
+    },
+    {
+        "name": "Gulab Jamun",
+        "cal": 150,
+        "p": 2,
+        "c": 25,
+        "f": 5,
+        "unit": "pc"
+    },
+    {
+        "name": "Watermelon",
+        "cal": 30,
+        "p": 0.6,
+        "c": 8,
+        "f": 0.2,
+        "unit": "g"
+    },
+    {
+        "name": "Papaya",
+        "cal": 43,
+        "p": 0.5,
+        "c": 11,
+        "f": 0.3,
+        "unit": "g"
+    },
+    {
+        "name": "Pineapple",
+        "cal": 50,
+        "p": 0.5,
+        "c": 13,
+        "f": 0.1,
+        "unit": "g"
+    },
+    {
+        "name": "Pomegranate",
+        "cal": 83,
+        "p": 1.7,
+        "c": 19,
+        "f": 1.2,
+        "unit": "g"
+    },
+    {
+        "name": "Grapes",
+        "cal": 69,
+        "p": 0.7,
+        "c": 18,
+        "f": 0.2,
+        "unit": "g"
+    },
+    {
+        "name": "Guava",
+        "cal": 68,
+        "p": 2.6,
+        "c": 14,
+        "f": 1,
+        "unit": "g"
+    },
+    {
+        "name": "Fish (Grilled)",
+        "cal": 105,
+        "p": 22,
+        "c": 0,
+        "f": 2,
+        "unit": "g"
+    },
+    {
+        "name": "Prawns",
+        "cal": 99,
+        "p": 24,
+        "c": 0,
+        "f": 0.3,
+        "unit": "g"
+    },
+    {
+        "name": "Chicken Salad",
+        "cal": 150,
+        "p": 15,
+        "c": 5,
+        "f": 8,
+        "unit": "plate"
+    },
+    {
+        "name": "Turkey",
+        "cal": 189,
+        "p": 29,
+        "c": 0.1,
+        "f": 7,
+        "unit": "g"
+    },
+    {
+        "name": "Beef",
+        "cal": 250,
+        "p": 26,
+        "c": 0,
+        "f": 15,
+        "unit": "g"
+    }
+]
